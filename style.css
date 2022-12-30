@@ -1,0 +1,146 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* ----------------Reset CSS-------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    padding: 60px 40px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*----------------------------------Main CSS-----------------------*/
+
+header .title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+
+header .btn-getip{
+    width: 303px;
+    padding: 19px 0;
+    background: #000000;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+}
+.subhead{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+}
+.filter-input{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 22px 75px;
+    width: 100%;
+}
+#search img{
+    position: absolute;
+    left: 23px;
+    top: 24px;
+   
+}
+
+#ip-details{
+    margin-top: 42px;
+}
+#map{
+    margin-top: 32px;
+}
+#timezone{
+    margin-top: 67px;
+}
+#date{
+    margin-top: 29px;
+}
+#pincode{
+    margin-top: 29px;
+}
+#filter{
+    margin-top: 71px;
+}
+#database{
+    margin-top: 63px;
+    
+}
+.box{
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    max-width: 600px;
+    /* padding: 26px 45.15px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
